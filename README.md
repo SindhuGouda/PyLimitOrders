@@ -17,7 +17,11 @@ Extend LimitOrderAgent such that it:
 
 accepts orders through an add_order method, that accepts the following parameters
   . a flag indicating whether to buy or sell
+  
   . a product id
+  
   . an amount to buy/sell
+  
   . the limit at which to buy or sell
+  
 executes any held orders when the market price is at or better than the limit (you can set aside or comment out the changes made for part 1)
